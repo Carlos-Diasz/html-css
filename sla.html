@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #select_archive {
+            display: none;
+        }
+
+
+        .archiveCamp_Style {
+            cursor: pointer;
+            padding: 3rem;
+            background-color: black;
+            color: #f3f3f3;
+            border-radius: 10px;
+        }
+
+        .archiveCamp_Style:hover {
+            border: solid 2px #f3f3f3;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <label for="select_archive" class="archiveCamp_Style">Certificados:</label>
+        <input type="file" name="archive_camp" id="select_archive">
+    </div>
+
+
+</body>
+
+</html>
